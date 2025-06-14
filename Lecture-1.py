@@ -1,77 +1,35 @@
-# Variables:
+                                # Variables
 
-# name = "Junaid"
-# age = 24
-# price = 24.99
-
-# print(name)
-# print(age)
-# print(price)
-
-# print(f"My name is {name}")
-# print(f"My age is {age}")
-# print(f"I have ${price} Shirt")
-
-# print(type(name))
-# print(type(age))
-# print(type(price))
-
-# name1 = 'sk'
-# name2 = "sk"
-# name3 = '''sk'''
-
-# print(name1)
-# print(name2)
-# print(name3)
+# Variable is a container for a value (Srting, Integer, Float, Boolean)
+# A variable behave as if it was the value it contains.
 
 
-# Data Types
+# String
 
-# i)      Integer  (+ve, -ve, 0)
-# ii)     String   ("Junaid", "Hello")
-# iii)    Float    (3.9, 3.7)
-# iv)     Boolean  (True, False)
-# v)      None     (a = None)
+name = "Junaid"
+fav_food = "Biryani"
+email = "junaid@fake.com"
 
-
-# Operators
-
-# 1: Arithimatic Operator:
-
-a = 5
-b = 2
-
-# print(a+b)
-# print(a-b)
-# print(a*b)
-# print(a/b)
-# print(a%b)
-# print(a**b)
-
-# Relational Operators
-
-# print(a==b)
-# print(a!=b)
-# print(a<b)
-# print(a>b)
-# print(a<=b)
-# print(a>=b)
+print(f"your name is {name}")
+print(f"your fav food is {fav_food}")
+print(f"your email is {email}")
 
 
-# Qs. Write a program to input 2 numbers & print their sum.
+# Integer
 
-# a  = int(input("Enter your first Number "))
-# b  = int(input("Enter your second Number "))
+age = 24
+distance = 5
+quantity = 10
 
-# sum = a + b
+print(f"your age is {age}")
+print(f"you ran {distance}km")
+print(f"you have {quantity} items")
 
-# print(sum)
 
+# Float
 
+price = 10.99
+gpa = 3.2
 
-# Qs. WAP to input side of a square & print its area.
-
-# Area = float(input("Enter your number "))
-# side = Area * Area
-
-# print(side)
+print(f"Pizza price is ${price}")
+print(f"your gpa is {gpa}")
